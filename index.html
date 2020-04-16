@@ -527,6 +527,7 @@ end disable menu items-->
 
               <!-- CONTACT DETAILS -->
               <!--9<div class="contact-details col-sm-4 col-md-3">-->
+
               <h5>
                 <p>Douglas Road,<br />Carmila, Qld. 4739<br />Australia</p>
                 <p>
@@ -537,8 +538,50 @@ end disable menu items-->
                   Phone:<br />
                   (+61) 07 4919 8207
                 </p>
-                <p>Email: <br />explore@aquilacove.com</p>
+                <p>Email: <br />aquilacove@eaglefox.net</p>
               </h5>
+              <div id="contactForm">
+                <h3>Contact Form</h3>
+                <div id="inputs">
+                  <form name="contact" method="POST" data-netlify="true">
+                    <p class="inputP">
+                      <label class="inputLabel">Your Name: </label>
+                    </p>
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your name"
+                      class="textInput"
+                    />
+
+                    <p class="inputP">
+                      <label class="inputLabel">Your Email:</label>
+                    </p>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your email"
+                      class="textInput"
+                    />
+
+                    <p class="inputP">
+                      <label class="inputLabel">Message: </label>
+                    </p>
+                    <textarea
+                      name="message"
+                      placeholder="Your message"
+                      class="textInput"
+                      id="messageInput"
+                    ></textarea>
+
+                    <p>
+                      <button class="btn btn-primary" type="submit">
+                        Send
+                      </button>
+                    </p>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
           <!-- .content-wrapper -->
@@ -558,7 +601,13 @@ end disable menu items-->
         </div>
 
         <!-- copyright text -->
-        <div class="footer-text-line">&copy; 2020 the Fox | Web Services</div>
+<section>
+        <footer class="footer-text-line">
+          &copy; 2016-2020 Built by
+          <a target="_blank" href="https://www.eaglefox.com.au"
+            >Eaglefox Pty Ltd ........ABN:51086009028</a
+          >
+        </footer>
       </section>
       <!-- end: Footer -->
     </div>
