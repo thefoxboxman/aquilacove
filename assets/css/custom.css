@@ -18,6 +18,8 @@ h3.forsale {
 }
 .textInput {
   width: 50%;
+  font-size: 1.2rem;
+  color: rgb(77, 126, 151);
 }
 
 #messageInput {
