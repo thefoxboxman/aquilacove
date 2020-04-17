@@ -57,4 +57,9 @@ a:active {
 
 .social-icons li {
   margin-bottom: 1.9rem;
+  list-style-type: none;
+}
+
+.social-logo {
+  width: 50px;
 }
