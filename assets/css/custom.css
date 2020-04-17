@@ -4,7 +4,7 @@ h3.forsale {
 }
 
 #contactForm {
-  color: rgb(132, 189, 218);
+  color: rgb(37, 92, 119);
 }
 
 #inputs {
@@ -19,12 +19,12 @@ h3.forsale {
 .textInput {
   width: 50%;
   font-size: 1.8rem;
-  color: rgb(61, 76, 65);
+  color: black;
 }
 
 #messageInput {
   height: 200px;
-  color: rgb(61, 76, 65);
+  color: black;
 }
 
 .inputP {
