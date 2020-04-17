@@ -54,3 +54,7 @@ a:hover {
 a:active {
   color: black;
 }
+
+.social-icons li {
+  margin-bottom: 1.9rem;
+}
