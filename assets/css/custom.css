@@ -1,4 +1,8 @@
 /* It is recommended to place all your extra/additional CSS rules here */
+
+body {
+  max-width: 900px;
+}
 h3.forsale {
   color: red;
 }
