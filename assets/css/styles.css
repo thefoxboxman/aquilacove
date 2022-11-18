@@ -352,8 +352,8 @@ ul.nav {
     top: 0;
     left: 3%;
     width: 13%;
-    max-width: 150px;
-    min-width: 150px;
+    max-width: 140px;
+    min-width: 140px;
     background: -moz-linear-gradient(
       top,
       rgba(0, 0, 0, 0.29) 0%,
@@ -620,7 +620,7 @@ ul.nav {
     text-align: center;
     background: none;
     z-index: 0;
-    padding: 0;
+    padding: 0 10px;
   }
   #go-to-top {
     left: 5px;
@@ -645,6 +645,9 @@ ul.nav {
 #main-content {
   display: block;
   position: relative;
+  max-width: 90%;
+  margin-left: 20px;
+  margin-right: 50px;
   margin: 20px 5%;
   overflow: visible;
   min-height: 1px;
@@ -654,6 +657,7 @@ ul.nav {
 
 @media (min-width: 768px) {
   #main-content {
+    margin-left: 0px;
     margin: 0 3% 0 22%;
     height: 100%;
   }

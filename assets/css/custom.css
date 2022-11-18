@@ -1,7 +1,7 @@
 /* It is recommended to place all your extra/additional CSS rules here */
 
 body {
-  max-width: 900px;
+  max-width: 1200px;
 }
 h3.forsale {
   color: red;
@@ -41,7 +41,7 @@ h3.forsale {
 
 /* unvisited link */
 a:link {
-  color: rgba(255, 72, 0, 0.616);
+  color: rgba(255, 72, 0, 0.9);
 }
 
 /* visited link */
@@ -67,3 +67,5 @@ a:active {
 .social-logo {
   width: 50px;
 }
+
+
