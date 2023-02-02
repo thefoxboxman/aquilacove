@@ -68,4 +68,8 @@ a:active {
   width: 50px;
 }
 
-
+h1{
+ color: orange;
+ font-size: 4rem;
+ text-align: center;
+}
